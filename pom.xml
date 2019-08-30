@@ -36,8 +36,8 @@
 	
 	<properties>
 		<!-- compile -->
-		<therest.version>2.1.0</therest.version>
-		<basicstorage.version>1.6.0</basicstorage.version>
+		<therest.version>2.2.0</therest.version>
+		<basicstorage.version>1.7.0</basicstorage.version>
 		 
 		<javax.ws.rs.version>2.1.1</javax.ws.rs.version>
 		<jersey.version>2.27</jersey.version>
