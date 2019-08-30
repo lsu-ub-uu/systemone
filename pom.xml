@@ -48,7 +48,7 @@
 		<connection>scm:git:https://github.com/lsu-ub-uu/systemone.git</connection>
 		<developerConnection>scm:git:https://github.com/lsu-ub-uu/systemone.git</developerConnection>
 		<url>https://github.com/lsu-ub-uu/systemone.git</url>
-	  <tag>HEAD</tag>
+	  <tag>release/2.1</tag>
   </scm>
 
 	<dependencies>
