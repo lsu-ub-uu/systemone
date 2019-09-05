@@ -34,14 +34,10 @@
 		<finalName>systemone</finalName>
 	</build>
 	
-	<properties>
+	<properties> 
 		<!-- compile -->
-		<therest.version>2.2.0</therest.version>
-		<basicstorage.version>1.7.0</basicstorage.version>
-		 
-		<javax.ws.rs.version>2.1.1</javax.ws.rs.version>
-		<jersey.version>2.27</jersey.version>
-		
+		<therest.version>2.4.0</therest.version>
+		<basicstorage.version>1.8.0</basicstorage.version>
 	</properties>
 
 	<scm>
@@ -74,6 +70,7 @@
 			<scope>compile</scope>
 		</dependency>
 		
+		<!-- provided -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
