@@ -38,7 +38,7 @@
 		<servlet-api.version>4.0.1</servlet-api.version>
 		<!-- compile -->
 		<therest.version>4.9.0</therest.version>
-		<basicstorage.version>3.6.0</basicstorage.version>
+		<basicstorage.version>3.8.0</basicstorage.version>
 	</properties>
 
 	<scm>
