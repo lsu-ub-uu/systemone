@@ -35,10 +35,23 @@
 	</build>
 	
 	<properties> 
+		<coralog4j.version>2.1.0</coralog4j.version>
+		<json.version>2.1.0</json.version>
+		<spider.version>3.16-SNAPSHOT</spider.version>
+		<therest.version>4.16.0</therest.version>
+		<beefeater.version>3.3-SNAPSHOT</beefeater.version>
+		<bookkeeper.version>4.9.0</bookkeeper.version>
+		<basicdata.version>1.11.0</basicdata.version>
+		<storage.version>3.7.0</storage.version>
+		<searchstorage.version>3.5.0</searchstorage.version>
+		<basicstorage.version>3.14.0</basicstorage.version>
+		<gatekeeper.version>3.5.0</gatekeeper.version>
+		<gatekeeperclient.version>3.8.0</gatekeeperclient.version>
+		<solrsearch.version>3.5.0</solrsearch.version>
+		<metacreator.version>3.9.0</metacreator.version>
+		<httphandler.version>2.1.0</httphandler.version>
 		<servlet-api.version>4.0.1</servlet-api.version>
-		<!-- compile -->
-		<therest.version>4.15.0</therest.version>
-		<basicstorage.version>3.12.0</basicstorage.version>
+		
 	</properties>
 
 	<scm>
@@ -49,35 +62,101 @@
   </scm>
 
 	<dependencies>
-		<!-- test -->
 		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>${testng.version}</version>
-			<scope>test</scope>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${coralog4j.version}</version>
+			<scope>runtime</scope>
 		</dependency>
-		
-		<!-- compile -->
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>therest</artifactId>
 			<version>${therest.version}</version>
-			<scope>compile</scope>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>json</artifactId>
+			<version>${json.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>spider</artifactId>
+			<version>${spider.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>beefeater</artifactId>
+			<version>${beefeater.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>bookkeeper</artifactId>
+			<version>${bookkeeper.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>basicdata</artifactId>
+			<version>${basicdata.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>storage</artifactId>
+			<version>${storage.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>searchstorage</artifactId>
+			<version>${searchstorage.version}</version>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>basicstorage</artifactId>
 			<version>${basicstorage.version}</version>
-			<scope>compile</scope>
+			<scope>runtime</scope>
 		</dependency>
-		
-		<!-- provided -->
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>gatekeeper</artifactId>
+			<version>${gatekeeper.version}</version>
+ 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>gatekeeperclient</artifactId>
+			<version>${gatekeeperclient.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>solrsearch</artifactId>
+			<version>${solrsearch.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>metacreator</artifactId>
+			<version>${metacreator.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>httphandler</artifactId>
+			<version>${httphandler.version}</version>
+			<scope>runtime</scope>
+		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>${servlet-api.version}</version>
 			<scope>provided</scope>
 		</dependency>
-		
 	</dependencies>
 </project>
