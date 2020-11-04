@@ -48,7 +48,7 @@
 		<gatekeeper.version>3.5.0</gatekeeper.version>
 		<gatekeeperclient.version>3.8.0</gatekeeperclient.version>
 		<solrsearch.version>3.5.0</solrsearch.version>
-		<metacreator.version>3.9.0</metacreator.version>
+		<metacreator.version>3.10-SNAPSHOT</metacreator.version>
 		<httphandler.version>2.1.0</httphandler.version>
 		<servlet-api.version>4.0.1</servlet-api.version>
 		
