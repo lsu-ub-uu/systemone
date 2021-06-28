@@ -28,7 +28,7 @@
 
 	<artifactId>systemone</artifactId>
 	<packaging>war</packaging>
-	<version>4.15-SNAPSHOT</version>
+	<version>5.0-SNAPSHOT</version>
 	<name>SystemOne</name>
 	<build>
 		<finalName>systemone</finalName>
@@ -46,7 +46,7 @@
 		<basicstorage.version>4.1-SNAPSHOT</basicstorage.version>
 		<gatekeeper.version>3.6.0</gatekeeper.version>
 		<gatekeeperclient.version>3.9.0</gatekeeperclient.version>
-		<solrsearch.version>3.6.0</solrsearch.version>
+		<solrsearch.version>3.7-SNAPSHOT</solrsearch.version>
 		<metacreator.version>4.3-SNAPSHOT</metacreator.version>
 		<httphandler.version>2.2.0</httphandler.version>
 		<servlet-api.version>4.0.1</servlet-api.version>
