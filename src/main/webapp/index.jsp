@@ -18,6 +18,9 @@
   --%>
 <!DOCTYPE html>
 <html lang="en">
+<head>
+	<title>Hello Rest of The World!</title>
+</head>
 <body>
 	<h1>Hello Rest of The World!</h1>
 	When "the rest" starts up, the
