@@ -23,9 +23,7 @@
 </head>
 <body>
 	<h1>SystemOne REST Api</h1>
-	<h1>Examples</h1>
 
-	Examples can be found in our <a href="http://epc.ub.uu.se/fitnesse/TheRestTests">acceptance tests</a>
 	<h3>Create</h3>
 	To create data, use: 
 	<br> 
@@ -61,5 +59,6 @@
 	<br>
 	<br>
 	
+	Examples can be found in our <a href="http://epc.ub.uu.se/fitnesse/TheRestTests">acceptance tests</a>
 </body>
 </html>
