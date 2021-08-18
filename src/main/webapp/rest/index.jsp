@@ -1,5 +1,5 @@
 <%--
-  ~ Copyright 2015 Uppsala University Library
+  ~ Copyright 2015, 2021 Uppsala University Library
   ~
   ~ This file is part of Cora.
   ~
@@ -19,7 +19,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Hello Rest of The World!</title>
+	<title>Hello Rest of The World!!!!!!!!!!!!!!!!!!!!!!!</title>
 </head>
 <body>
 	<h1>Hello Rest of The World!</h1>
