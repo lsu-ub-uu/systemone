@@ -50,7 +50,7 @@
 		<metacreator.version>4.6.0</metacreator.version>
 		<httphandler.version>2.4.0</httphandler.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
-		<xmlconverter.version>1.9.0</xmlconverter.version>
+		<xmlconverter.version>1.10.0</xmlconverter.version>
 	</properties>
 
 	<scm>
