@@ -50,6 +50,7 @@
 		<metacreator.version>4.7.0</metacreator.version>
 		<httphandler.version>2.5.0</httphandler.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
+		<fedoraarchive.version>1.0.0</fedoraarchive.version>  
 		<xmlconverter.version>1.11.0</xmlconverter.version>
 	</properties>
 
@@ -157,6 +158,12 @@
 			<version>${servlet-api.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>fedoraarchive</artifactId>
+			<version>${fedoraarchive.version}</version>
+			<scope>runtime</scope>
+		</dependency> 
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>xmlconverter</artifactId>
