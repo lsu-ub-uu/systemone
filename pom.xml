@@ -36,22 +36,22 @@
 	<properties> 
 		<coralog4j.version>2.9.0</coralog4j.version>
 		<json.version>3.3.0</json.version>
-		<spider.version>6.1.0</spider.version>
-		<therest.version>8.1.0</therest.version>
+		<spider.version>7.0-SNAPSHOT</spider.version>
+		<therest.version>9.0-SNAPSHOT</therest.version>
 		<beefeater.version>3.7.0</beefeater.version>
-		<bookkeeper.version>6.7.0</bookkeeper.version>
-		<basicdata.version>3.7.0</basicdata.version>
-		<storage.version>6.1.0</storage.version>
-		<searchstorage.version>3.12.0</searchstorage.version>
-		<basicstorage.version>5.5.0</basicstorage.version>
+		<bookkeeper.version>7.0-SNAPSHOT</bookkeeper.version>
+		<basicdata.version>4.0-SNAPSHOT</basicdata.version>
+		<storage.version>6.2-SNAPSHOT</storage.version>
+		<searchstorage.version>3.13-SNAPSHOT</searchstorage.version>
+		<basicstorage.version>6.0-SNAPSHOT</basicstorage.version>
 		<gatekeeper.version>3.12.0</gatekeeper.version>
-		<gatekeeperclient.version>3.15.0</gatekeeperclient.version>
-		<solrsearch.version>4.7.0</solrsearch.version>
-		<metacreator.version>4.8.0</metacreator.version>
+		<gatekeeperclient.version>4.0-SNAPSHOT</gatekeeperclient.version>
+		<solrsearch.version>4.8-SNAPSHOT</solrsearch.version>
+		<metacreator.version>5.0-SNAPSHOT</metacreator.version>
 		<httphandler.version>2.6.0</httphandler.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
-		<fedoraarchive.version>1.1.0</fedoraarchive.version>  
-		<xmlconverter.version>1.12.0</xmlconverter.version>
+		<fedoraarchive.version>1.2-SNAPSHOT</fedoraarchive.version>  
+		<xmlconverter.version>2.0-SNAPSHOT</xmlconverter.version>
 	</properties>
 
 	<scm>
