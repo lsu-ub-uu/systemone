@@ -36,7 +36,7 @@
 	<properties> 
 		<coralog4j.version>2.9.0</coralog4j.version>
 		<json.version>3.3.0</json.version>
-		<spider.version>7.1.0</spider.version>
+		<spider.version>7.2-SNAPSHOT</spider.version>
 		<therest.version>9.1.0</therest.version>
 		<beefeater.version>3.7.0</beefeater.version>
 		<bookkeeper.version>7.0.0</bookkeeper.version>
