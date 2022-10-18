@@ -43,6 +43,7 @@
 		<bookkeeper.version>8.0-SNAPSHOT</bookkeeper.version>
 		<basicdata.version>5.0-SNAPSHOT</basicdata.version>
 		<storage.version>7.0-SNAPSHOT</storage.version>
+		<metadatastorage.version>1.0-SNAPSHOT</metadatastorage.version>
 		<searchstorage.version>3.15-SNAPSHOT</searchstorage.version>
 		<basicstorage.version>7.0-SNAPSHOT</basicstorage.version>
 		<gatekeeper.version>3.14.0</gatekeeper.version>
@@ -115,6 +116,12 @@
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>storage</artifactId>
 			<version>${storage.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>metadatastorage</artifactId>
+			<version>${metadatastorage.version}</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
