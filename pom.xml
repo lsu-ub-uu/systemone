@@ -40,12 +40,14 @@
 		<spider.version>7.7-SNAPSHOT</spider.version>
 		<therest.version>9.8-SNAPSHOT</therest.version>
 		<beefeater.version>3.11.0</beefeater.version>
-		<bookkeeper.version>8.4-SNAPSHOT</bookkeeper.version>
+		<bookkeeper.version>9.0-SNAPSHOT</bookkeeper.version>
 		<basicdata.version>5.4-SNAPSHOT</basicdata.version>
 		<storage.version>8.0-SNAPSHOT</storage.version>
 		<metadatastorage.version>1.4-SNAPSHOT</metadatastorage.version>
 		<searchstorage.version>3.19-SNAPSHOT</searchstorage.version>
 		<basicstorage.version>7.4-SNAPSHOT</basicstorage.version>
+		<sqldatabase.version>7.0-SNAPSHOT</sqldatabase.version>
+		<sqlstorage.version>2.6-SNAPSHOT</sqlstorage.version>
 		<gatekeeper.version>4.3.0</gatekeeper.version>
 		<gatekeeperclient.version>4.5.0</gatekeeperclient.version>
 		<solrsearch.version>5.3.0</solrsearch.version>
@@ -134,6 +136,18 @@
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>basicstorage</artifactId>
 			<version>${basicstorage.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>sqldatabase</artifactId>
+			<version>${sqldatabase.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>sqlstorage</artifactId>
+			<version>${sqlstorage.version}</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
