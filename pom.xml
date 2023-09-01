@@ -45,7 +45,7 @@
 		<storage.version>9.0-SNAPSHOT</storage.version>
 		<metadatastorage.version>1.7-SNAPSHOT</metadatastorage.version>
 		<searchstorage.version>3.20.0</searchstorage.version>
-		<basicstorage.version>7.8.0</basicstorage.version>
+		<basicstorage.version>7.9-SNAPSHOT</basicstorage.version>
 		<sqldatabase.version>7.1.0</sqldatabase.version>
 		<sqlstorage.version>2.12-SNAPSHOT</sqlstorage.version>
 		<gatekeeper.version>4.4.0</gatekeeper.version>
