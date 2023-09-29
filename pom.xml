@@ -52,7 +52,7 @@
 		<gatekeeperclient.version>4.7.0</gatekeeperclient.version>
 		<solrsearch.version>5.5.0</solrsearch.version>
 		<metacreator.version>5.9-SNAPSHOT</metacreator.version>
-		<httphandler.version>2.10.0</httphandler.version>
+		<httphandler.version>2.11-SNAPSHOT</httphandler.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
 		<fedoraarchive.version>1.11-SNAPSHOT</fedoraarchive.version>  
 		<tikacontentanalyzer.version>1.0-SNAPSHOT</tikacontentanalyzer.version>  
