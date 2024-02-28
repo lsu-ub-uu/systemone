@@ -27,29 +27,12 @@
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
+	
 	<servlet-mapping>
 		<servlet-name>Jersey REST Service</servlet-name>
 		<url-pattern>/rest/record/*</url-pattern>
 	</servlet-mapping>
 	
-	<servlet>
-		<servlet-name>Jersey IIIF Service</servlet-name>
-		<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
-		<init-param>
-			<param-name>jersey.config.server.provider.packages</param-name>
-			<param-value>se.uu.ub.cora.therest.iiif</param-value>
-		</init-param>
-		<init-param>
-			<param-name>jersey.config.server.provider.classnames</param-name>
-			<param-value>org.glassfish.jersey.media.multipart.MultiPartFeature</param-value>
-		</init-param>
-		<load-on-startup>1</load-on-startup>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Jersey IIIF Service</servlet-name>
-		<url-pattern>/iiif/*</url-pattern>
-	</servlet-mapping>
-
 	<filter>
 		<filter-name>CorsFilter</filter-name>
 		<filter-class>org.apache.catalina.filters.CorsFilter</filter-class>
@@ -68,8 +51,51 @@
 			</param-value>
 		</init-param>
 	</filter>
+	
 	<filter-mapping>
 		<filter-name>CorsFilter</filter-name>
-		<url-pattern>/*</url-pattern>
+		<url-pattern>/rest/record/*</url-pattern>
+	</filter-mapping>
+
+	<servlet>
+		<servlet-name>Jersey IIIF Service</servlet-name>
+		<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+		<init-param>
+			<param-name>jersey.config.server.provider.packages</param-name>
+			<param-value>se.uu.ub.cora.therest.iiif</param-value>
+		</init-param>
+		<init-param>
+			<param-name>jersey.config.server.provider.classnames</param-name>
+			<param-value>org.glassfish.jersey.media.multipart.MultiPartFeature</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Jersey IIIF Service</servlet-name>
+		<url-pattern>/iiif/*</url-pattern>
+	</servlet-mapping>
+	
+	<filter>
+		<filter-name>CorsFilterIiif</filter-name>
+		<filter-class>org.apache.catalina.filters.CorsFilter</filter-class>
+		<init-param>
+			<param-name>cors.allowed.origins</param-name>
+			<param-value>*</param-value>
+		</init-param>
+		<init-param>
+			<param-name>cors.allowed.methods</param-name>
+			<param-value>GET,OPTIONS</param-value>
+		</init-param>
+		<init-param>
+			<param-name>cors.allowed.headers</param-name>
+			<param-value>authToken,Content-Type,X-Requested-With,accept,Origin,
+			Access-Control-Request-Method,Access-Control-Request-Headers
+			</param-value>
+		</init-param>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>CorsFilterIiif</filter-name>
+		<url-pattern>/iiif/*</url-pattern>
 	</filter-mapping>
 </web-app>
