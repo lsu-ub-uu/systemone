@@ -58,7 +58,7 @@
 		<tikacontentanalyzer.version>1.1.0</tikacontentanalyzer.version>  
 		<xmlconverter.version>3.0.0</xmlconverter.version>
 		<rabbitmq.version>3.0.0</rabbitmq.version>
-		<iiif.version>1.0-SNAPSHOT</iiif.version>
+		<iiif.version>1.0.0</iiif.version>
 	</properties>
 
 	<scm>
