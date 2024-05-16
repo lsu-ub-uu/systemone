@@ -54,7 +54,7 @@
 		<metacreator.version>5.14.0</metacreator.version>
 		<httphandler.version>2.16.0</httphandler.version>
 		<servlet-api.version>5.0.0</servlet-api.version>
-		<fedoraarchive.version>1.14.0</fedoraarchive.version> 
+		<fedoraarchive.version>1.14.0</fedoraarchive.version>
 		<fedora.version>4.2.0</fedora.version> 
 		<tikacontentanalyzer.version>1.1.0</tikacontentanalyzer.version>  
 		<xmlconverter.version>3.0.0</xmlconverter.version>
