@@ -158,7 +158,7 @@
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>gatekeeper</artifactId>
 			<version>${gatekeeper.version}</version>
- 			<scope>runtime</scope>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
@@ -195,7 +195,7 @@
 			<artifactId>fedoraarchive</artifactId>
 			<version>${fedoraarchive.version}</version>
 			<scope>runtime</scope>
-		</dependency> 
+		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>fedora</artifactId>
