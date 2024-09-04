@@ -42,12 +42,12 @@
 		<beefeater.version>3.13.0</beefeater.version>
 		<bookkeeper.version>10.0-SNAPSHOT</bookkeeper.version>
 		<basicdata.version>5.7.0</basicdata.version>
-		<storage.version>9.1.0</storage.version>
-		<metadatastorage.version>1.8.0</metadatastorage.version>
+		<storage.version>9.2.0</storage.version>
+		<metadatastorage.version>1.9-SNAPSHOT</metadatastorage.version>
 		<searchstorage.version>3.22.0</searchstorage.version>
-		<basicstorage.version>7.11.0</basicstorage.version>
+		<basicstorage.version>7.12.0</basicstorage.version>
 		<sqldatabase.version>7.3.0</sqldatabase.version>
-		<sqlstorage.version>2.13.0</sqlstorage.version>
+		<sqlstorage.version>2.14-SNAPSHOT</sqlstorage.version>
 		<gatekeeper.version>4.7.0</gatekeeper.version>
 		<gatekeeperclient.version>4.9.0</gatekeeperclient.version>
 		<solrsearch.version>5.7.0</solrsearch.version>
