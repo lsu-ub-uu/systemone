@@ -51,7 +51,7 @@
 		<gatekeeper.version>4.7.0</gatekeeper.version>
 		<gatekeeperclient.version>4.9.0</gatekeeperclient.version>
 		<solrsearch.version>6.0-SNAPSHOT</solrsearch.version>
-		<metacreator.version>5.14.0</metacreator.version>
+		<metacreator.version>5.15-SNAPSHOT</metacreator.version>
 		<httphandler.version>2.16.0</httphandler.version>
 		<servlet-api.version>6.1.0</servlet-api.version>
 		<fedoraarchive.version>1.14.0</fedoraarchive.version>
