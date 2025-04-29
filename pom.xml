@@ -43,7 +43,7 @@
 		<bookkeeper.version>10.4-SNAPSHOT</bookkeeper.version>
 		<basicdata.version>6.2.0</basicdata.version>
 		<storage.version>9.7.0</storage.version>
-		<metadatastorage.version>1.10.0</metadatastorage.version>
+		<metadatastorage.version>1.11-SNAPSHOT</metadatastorage.version>
 		<searchstorage.version>3.22.0</searchstorage.version>
 		<basicstorage.version>7.17.0</basicstorage.version>
 		<sqldatabase.version>7.3.0</sqldatabase.version>
