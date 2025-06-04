@@ -28,7 +28,7 @@
 
 	<artifactId>systemone</artifactId>
 	<packaging>war</packaging>
-	<version>8.34-SNAPSHOT</version>
+	<version>8.35-SNAPSHOT</version>
 	<name>SystemOne</name>
 	<build>
 		<finalName>systemone</finalName>
@@ -41,7 +41,7 @@
 		<therest.version>11.9.0</therest.version>
 		<beefeater.version>4.0.0</beefeater.version>
 		<bookkeeper.version>10.4.0</bookkeeper.version>
-		<basicdata.version>6.8-SNAPSHOT</basicdata.version>
+		<basicdata.version>6.9-SNAPSHOT</basicdata.version>
 		<storage.version>9.8.0</storage.version>
 		<metadatastorage.version>1.12.0</metadatastorage.version>
 		<searchstorage.version>3.22.0</searchstorage.version>
@@ -57,7 +57,7 @@
 		<fedoraarchive.version>1.15.0</fedoraarchive.version>
 		<fedora.version>4.2.0</fedora.version> 
 		<tikacontentanalyzer.version>1.1.0</tikacontentanalyzer.version>  
-		<xmlconverter.version>3.5-SNAPSHOT</xmlconverter.version>
+		<xmlconverter.version>3.6-SNAPSHOT</xmlconverter.version>
 		<rabbitmq.version>3.1.0</rabbitmq.version>
 		<iiif.version>1.0.0</iiif.version>
 	</properties>
