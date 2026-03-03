@@ -37,11 +37,11 @@
 		<coralog4j.version>2.16.0</coralog4j.version>
 		<json.version>3.10.0</json.version>
 		<initialize.version>1.8.0</initialize.version>
-		<spider.version>10.8.0</spider.version>
+		<spider.version>10.9-SNAPSHOT</spider.version>
 		<therest.version>13.3.0</therest.version>
 		<beefeater.version>4.0.0</beefeater.version>
-		<bookkeeper.version>11.8.0</bookkeeper.version>
-		<basicdata.version>7.1.0</basicdata.version>
+		<bookkeeper.version>11.9-SNAPSHOT</bookkeeper.version>
+		<basicdata.version>7.2-SNAPSHOT</basicdata.version>
 		<storage.version>10.0.0</storage.version>
 		<metadatastorage.version>1.15.0</metadatastorage.version>
 		<searchstorage.version>3.22.0</searchstorage.version>
@@ -57,7 +57,7 @@
 		<fedoraarchive.version>1.16.0</fedoraarchive.version>
 		<fedora.version>4.2.0</fedora.version> 
 		<tikacontentanalyzer.version>1.1.0</tikacontentanalyzer.version>  
-		<xmlconverter.version>3.7.0</xmlconverter.version>
+		<xmlconverter.version>3.8-SNAPSHOT</xmlconverter.version>
 		<idsource.version>1.3.0</idsource.version>
 		<rabbitmq.version>3.1.0</rabbitmq.version>
 		<iiif.version>1.1.0</iiif.version>
