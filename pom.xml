@@ -34,7 +34,7 @@
 		<finalName>systemone</finalName>
 	</build>
 	<properties> 
-		<coralog4j.version>2.17.0</coralog4j.version>
+		<coralog4j.version>2.18.0</coralog4j.version>
 		<json.version>3.11.0</json.version>
 		<initialize.version>1.8.0</initialize.version>
 		<spider.version>10.11.0</spider.version>
